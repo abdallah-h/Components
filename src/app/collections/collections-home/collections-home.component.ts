@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CollectionsHomeComponent implements OnInit {
   classNames = 'striped celled';
+
   data = [
     { name: 'abdallah', age: 24, job: 'Developer', employed: true },
     { name: 'abdallah', age: 25, job: 'Developer', employed: false },
