@@ -7,13 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CollectionsHomeComponent implements OnInit {
   classNames = 'striped celled';
-
   data = [
-    { name: 'abdallah', age: 24, job: 'Developer', employed: true },
-    { name: 'abdallah', age: 25, job: 'Developer', employed: false },
-    { name: 'abdallah', age: 26, job: 'Developer', employed: true },
+    { name: 'Abdallah', age: 24, job: 'Developer', employed: true },
+    { name: 'Hassan', age: 25, job: 'Developer', employed: false },
+    { name: 'Abdulmenam', age: 26, job: 'Developer', employed: true },
   ];
-
   headers = [
     { key: 'name', label: 'Name' },
     { key: 'age', label: 'Age' },
